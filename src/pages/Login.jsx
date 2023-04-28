@@ -22,12 +22,12 @@ const Login = () => {
   return (
     <div className="formContainer">
       <div className="formWrapper">
-        <span className="logo">Furry Woofs</span>
-        <span className="title">Login</span>
+        <span className="logo">Furry Friends</span>
+        <span className="title"> LogIn </span>
         <form onSubmit={handleSubmit}>
           <input type="email" placeholder="email" />
           <input type="password" placeholder="password" />
-          <button>Sign in</button>
+          <button>Log In</button>
           {err && <span>Something went wrong</span>}
         </form>
         <p>
