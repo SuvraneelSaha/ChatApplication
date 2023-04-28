@@ -62,10 +62,12 @@ const Register = () => {
   return (
     <div className="formContainer">
       <div className="formWrapper">
-        <span className="logo">Furry Woofs</span>
-        <span className="title">Register</span>
+        <span className="logo">Furry Friends </span>
+        <span className="title">
+          *Please register with your Furry Friends username*{" "}
+        </span>
         <form onSubmit={handleSubmit}>
-          <input required type="text" placeholder="display name" />
+          <input required type="text" placeholder="Furry Friends User name" />
           <input required type="email" placeholder="email" />
           <input required type="password" placeholder="password" />
           <input required style={{ display: "none" }} type="file" id="file" />
